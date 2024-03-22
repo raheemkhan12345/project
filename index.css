@@ -1,0 +1,71 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.header{
+    color: #a8a8a8;
+    background-color: #f8f8f8;
+    height: 45px;
+    width: auto;
+}
+.header p{
+    margin-left: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: larger;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ margin-top: -50px;
+    padding-left: 760px; 
+    text-align: center;
+    
+}
+.intro
+{
+    background-color: #11aab8;
+    text-align: center;
+    color: white;
+}
+.intro p{
+    padding: 10px;
+}
+.intro img{
+    border-radius: 50%;
+    width: 194px;
+    height: 196px;
+}
+.section
+{
+    background-color: #4d5361;
+    color: white;
+    margin: -25px;
+    padding: 35px;
+    
+}
+.intro-2
+{
+    text-align: center;
+}
+.section .intro-2 .input-group{
+    margin-left: 400px;
+    width: 185px;
+}
+.labtasks{
+    margin-top: 40px;
+    color: #4d5361;
+    text-align: center;
+}
+.footer
+{
+    height: 100px;
+    background: rgb(51 52 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}
